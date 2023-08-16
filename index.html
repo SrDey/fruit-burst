@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fruit Burst</title>
   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-  <!-- google font lato -->
+  <!-- google-font-lato -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-  <!-- added font awesome -->
+  <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/2a971a071b.js" crossorigin="anonymous"></script>
   <!-- tailwind and daisyui -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- custom class -->
+  <!-- custom-class -->
   <script>
     tailwind.config = {
       theme: {
@@ -26,13 +26,12 @@
 
           colors: {
             'color-pink': '#F85559',
-            clifford: '#da373d',
           }
         }
       }
     }
   </script>
-  <!-- shared style -->
+  <!-- styles -->
   <style>
     .font-lato {
       font-family: 'Lato', sans-serif;
@@ -43,7 +42,6 @@
 
 <body>
   <header class="max-w-7xl mx-auto ">
-    <!-- nav section starts here -->
     <section class="lg:my-14">
       <div class="navbar lg:bg-color-pink lg:px-5 h-[120px] rounded-full">
         <!-- nav -->
@@ -90,7 +88,7 @@
       <!-- carousel -->
       <div class="carousel w-full">
         <!-- slider 1 -->
-        <div id="slide1"  class="carousel-item relative w-full">
+        <div id="slide1"  class="carousel-item relative w-full hero-overlay">
           <img src="./images/banner1.png" class="w-full opacity-80" />
           <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a>
@@ -107,7 +105,7 @@
           </div>
         </div>
         <!-- slider 2 -->
-        <div id="slide2" class="carousel-item relative w-full">
+        <div id="slide2" class="carousel-item relative w-full hero-overlay">
           <img src="./images/banner2.png" class="w-full opacity-80 " />
           <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
@@ -124,8 +122,8 @@
           </div>
         </div>
         <!-- slider 3 -->
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="./images/banner3.png" class="w-full opacity-80 " />
+        <div id="slide3" class="carousel-item relative w-full hero-overlay">
+          <img src="./images/banner3.png" class="w-full opacity-75 " />
           <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
             <div class="text-center w-[700px]">
@@ -141,7 +139,7 @@
           </div>
         </div>
         <!-- slider 4 -->
-        <div id="slide4" class="carousel-item relative w-full">
+        <div id="slide4" class="carousel-item relative w-full hero-overlay">
           <img src="./images/banner4.png" class="w-full opacity-80 " />
           <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
@@ -533,7 +531,7 @@
                 <img class="w-[100px] h-[100px] mx-auto" src="./images/member1.png" alt="">
                 <h4 class="text-2xl font-lato font-bold lg:mt-7">Awlad Hossain</h4>
                 <p class="text-base font-lato font-medium">Fruits Expert</p>
-                <!-- icon -->
+                <!-- icons -->
                 <div class="flex justify-center
                             mt-3 gap-2">
                   <img class="w-[24px] h-[24px]" src="./images/icons/fb-member.png" alt="">
@@ -546,7 +544,7 @@
                 <img class="w-[100px] h-[100px] mx-auto" src="./images/member2.png" alt="">
                 <h4 class="text-2xl font-lato font-bold lg:mt-7">Safia Chowdhury</h4>
                 <p class="text-base font-lato font-medium">Fruits Expert</p>
-                <!-- icon -->
+                <!-- icons -->
                 <div class="flex justify-center
                             mt-3 gap-2">
                   <img class="w-[24px] h-[24px]" src="./images/icons/fb-member.png" alt="">
@@ -559,7 +557,7 @@
                 <img class="w-[100px] h-[100px] mx-auto" src="./images/member3.png" alt="">
                 <h4 class="text-2xl font-lato font-bold lg:mt-7">Rokib Hossain</h4>
                 <p class="text-base font-lato font-medium">Fruits Expert</p>
-                <!-- icon -->
+                <!-- icons -->
                 <div class="flex justify-center
                             mt-3 gap-2">
                   <img class="w-[24px] h-[24px]" src="./images/icons/fb-member.png" alt="">
